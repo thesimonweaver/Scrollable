@@ -14,15 +14,18 @@ Searching for an easy to utilize script in the past was a pain, so I've written 
 Required:
 jQuery. Current Version tested - 2.1.1.
 
-Easy Installation, add the follow snipet to the <head></head> tag to load jQuery. 
+Easy Installation, add the follow snipet to the ```<head></head>``` tag to load jQuery. 
 Thank you Google Api's!
+```html
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
+```
 Save scrollable.js from the distribute folder wherever you like.
 A "js" folder on the site root is prefered, so you don't have to edit the following.
 
-Add scrollable.js to the bottom of the <body></body> tag.
+Add scrollable.js to the bottom of the ```<body></body>``` tag.
+```
 <script src="js/scrollable.js"></script>
+```
 
 Open scrollable.js in Notepad++ or your prefered text editor.
 Within the lines 3-30 you will find basic settings variables. 
@@ -30,11 +33,16 @@ Edit the Variables to your requirements.
 
 Execute the following function within your init.js or main.js
 Or Uncomment line 33, To Execute Code on Page Ready. (Delete // at the begining of the line)
-example:
+example: (I have no idea why there is a red strikethrough)
+
+
+
+```
 function init(){
 	scrollable();
 };
 init();
+```
 
 And That's it.
 Feel Free to Edit as You Please.
