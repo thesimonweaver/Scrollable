@@ -14,7 +14,7 @@ Searching for an easy to utilize script in the past was a pain, so I've written 
 Required:
 jQuery. Current Version tested - 2.1.1.
 
-Easy Installation, add the follow snipet to the ```<head></head>``` tag to load jQuery. 
+Easy Installation, add the following snipet to the ```<head></head>``` tag to load jQuery. 
 Thank you Google Api's!
 ```html
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
