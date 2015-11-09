@@ -33,7 +33,7 @@ Edit the Variables to your requirements.
 
 Execute the following function within your init.js or main.js
 Or Uncomment line 33, To Execute Code on Page Ready. (Delete // at the begining of the line)
-example: (I have no idea why there is a red strikethrough)
+example:
 
 
 
