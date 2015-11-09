@@ -32,6 +32,7 @@ Within the lines 3-30 you will find basic settings variables.
 Edit the Variables to your requirements. 
 
 Execute the following function within your init.js or main.js
+
 Or Uncomment line 33, To Execute Code on Page Ready. (Delete // at the begining of the line)
 
 init example:
