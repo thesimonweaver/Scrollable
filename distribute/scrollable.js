@@ -23,14 +23,17 @@ var scrollableElemetsArray = [
 	$(".ClassName1") //Class Element Example, Note Class Name Special Character is a Full Stop.
 	];
 
-// Scrollable Distance in Pixels.		
+//Scrollable Distance in Pixels.		
 var scrollableDistance = 120;
 
+//If Main Scrollable Frame is a Large Primary Element
+//Set Element Scrollable without Having to exit and enter element.
+var defaultScrollable = scrollableElemet; //Default is Solo Element.
 
 ////////////////////////////////////////////////////////////////////////////Actual Scrollable	
 //Execute Scrollable On Document Ready.
 //Uncomment the Following for Scrollable to Load when Page is Ready.
-//$(document).ready(scrollable());
+$(document).ready(scrollable());
 
 function scrollable(){
 	var selectedElementsType;
@@ -67,7 +70,14 @@ function scrollable(){
 			$(this).unbind('mousewheel DOMMouseScroll');
 		});
 	});	
-}
+
+	defaultScrollable.ready(function(){
+		defaultScrollable.trigger("mouseover");
+	});
+	
+};
+
+
 
 /* 
 Author: Simon Weaver 2015
